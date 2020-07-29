@@ -1,0 +1,32 @@
+{
+  "name": "Sami_API",
+  "version": "1.0.0",
+  "description": "Backend api para o app Sami",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon backendAPI/app.js",
+    "start": "node backendAPI/app.js"
+  },
+  "keywords": [
+    "backend",
+    "api",
+    "app",
+    "Sami"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "jose": "^1.27.2",
+    "multer": "^1.4.2",
+    "pg": "^8.3.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.3",
+    "sequelize-cli": "^6.2.0",
+    "sharp": "^0.25.4"
+  },
+  "devDependencies": {
+    "serverless-offline": "^6.4.0"
+  }
+}
